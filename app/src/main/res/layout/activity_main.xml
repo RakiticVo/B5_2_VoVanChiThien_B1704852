@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#FF5722"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#FFEB3B"
+        android:layout_marginTop="15dp"
+        android:text="@string/txt0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtText1"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittext1"
+            android:textColorHint="#673AB7"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:background="#ECBCCC" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Reset"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:backgroundTint="@color/black"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:onClick="onClickSaveInternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:backgroundTint="#A1E8F1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSave1"
+        android:text="@string/btn1"/>
+
+    <Button
+        android:onClick="onClickLoadInternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:backgroundTint="#ABE8AD"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSave2"
+        android:text="@string/btn2"/>
+
+    <Button
+        android:onClick="onClickSaveExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:backgroundTint="#A1E8F1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnLoad1"
+        android:text="@string/btn3"/>
+
+    <Button
+        android:onClick="onClickLoadExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:backgroundTint="#ABE8AD"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnLoad2"
+        android:text="@string/btn4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:backgroundTint="#A5A5A3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/help"
+        android:text="@string/btn5"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:src="@drawable/honeycomb"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>

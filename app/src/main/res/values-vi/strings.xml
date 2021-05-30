@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">B5_2_VoVanChiThien_B1704852</string>
+    <string name="txt0">Lưu tập tin</string>
+    <string name="edittext1">Nhập vào văn bản muốn lưu</string>
+    <string name="btn1">LƯU VÀO BỘ NHỚ TRONG</string>
+    <string name="btn3">LƯU VÀO BỘ NHỚ NGOÀI</string>
+    <string name="btn2">TẢI TỪ BỘ NHỚ TRONG</string>
+    <string name="btn4">TẢI TỪ BỘ NHỚ NGOÀI</string>
+    <string name="btn5">HƯỚNG DẪN</string>
+    <string name="txtstatic1">TÀI NGUYÊN TĨNH</string>
+    <string name="txtstatic2">HƯỚNG DẪN</string>
+</resources>
